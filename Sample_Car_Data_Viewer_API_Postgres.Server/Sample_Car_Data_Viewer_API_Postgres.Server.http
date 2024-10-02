@@ -1,0 +1,6 @@
+@Sample_Car_Data_Viewer_API_Postgres.Server_HostAddress = http://localhost:5091
+
+GET {{Sample_Car_Data_Viewer_API_Postgres.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

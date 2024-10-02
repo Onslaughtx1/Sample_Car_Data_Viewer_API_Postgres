@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "postgresql1": {
+      "ignored": "true",
+      "type": "postgresql"
+    },
+    "secrets1": {
+      "type": "secrets",
+      "dynamicId": null
+    }
+  }
+}

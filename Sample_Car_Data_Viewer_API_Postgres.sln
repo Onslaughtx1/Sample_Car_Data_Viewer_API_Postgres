@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample_Car_Data_Viewer_API_Postgres.Server", "Sample_Car_Data_Viewer_API_Postgres.Server\Sample_Car_Data_Viewer_API_Postgres.Server.csproj", "{9E9065A7-5EBD-459A-8A7F-5739A38962FE}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "sample_car_data_viewer_api_postgres.client", "sample_car_data_viewer_api_postgres.client\sample_car_data_viewer_api_postgres.client.esproj", "{B122E9E7-1E78-4276-9603-D397E5C48C6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E9065A7-5EBD-459A-8A7F-5739A38962FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E9065A7-5EBD-459A-8A7F-5739A38962FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E9065A7-5EBD-459A-8A7F-5739A38962FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E9065A7-5EBD-459A-8A7F-5739A38962FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B122E9E7-1E78-4276-9603-D397E5C48C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B122E9E7-1E78-4276-9603-D397E5C48C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B122E9E7-1E78-4276-9603-D397E5C48C6C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B122E9E7-1E78-4276-9603-D397E5C48C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B122E9E7-1E78-4276-9603-D397E5C48C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B122E9E7-1E78-4276-9603-D397E5C48C6C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03F3FE89-CE0D-442B-8C41-9AE55417CB65}
+	EndGlobalSection
+EndGlobal
