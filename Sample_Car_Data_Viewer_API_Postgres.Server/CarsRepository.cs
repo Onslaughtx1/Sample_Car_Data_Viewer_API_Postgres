@@ -13,7 +13,7 @@ namespace Sample_Car_Data_Viewer_API_Postgres.Server
                 {
                         new CarsData
                         {
-                            Id = 1,
+                            Id = 21,
                             Mileage = 1000,
                             Make = "Ford",
                             Model = "Mustang",
@@ -25,7 +25,7 @@ namespace Sample_Car_Data_Viewer_API_Postgres.Server
                         },
                         new CarsData
                         {
-                            Id = 2,
+                            Id = 22,
                             Mileage = 2000,
                             Make = "Dodge",
                             Model = "Challenger",
@@ -37,8 +37,8 @@ namespace Sample_Car_Data_Viewer_API_Postgres.Server
                         },
                         new CarsData
                         {
-                            Id = 3,
-                            Mileage = 2000,
+                            Id = 23,
+                            Mileage = 3000,
                             Make = "Chevrolet",
                             Model = "Camaro",
                             Fuel = "Petrol",
@@ -48,6 +48,7 @@ namespace Sample_Car_Data_Viewer_API_Postgres.Server
                             Year = 1974
                         }
                 };
+                    
                 context.CarsDataList.AddRange(carsData);
                 context.SaveChanges();
             }

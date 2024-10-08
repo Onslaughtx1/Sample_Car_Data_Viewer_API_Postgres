@@ -1,5 +1,4 @@
 using Sample_Car_Data_Viewer_API_Postgres.Server;
-using static Sample_Car_Data_Viewer_API_Postgres.Server.CarsRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,7 +1,10 @@
-﻿namespace Sample_Car_Data_Viewer_API_Postgres.Server
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Sample_Car_Data_Viewer_API_Postgres.Server
 {
     public class CarsData
     {
+        [Key]
         public int? Id {  get; set; }
         public int? Mileage { get; set; }
         public string? Make { get; set; }
