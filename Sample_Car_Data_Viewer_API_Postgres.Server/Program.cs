@@ -1,6 +1,10 @@
+using Sample_Car_Data_Viewer_API_Postgres.Server;
+using static Sample_Car_Data_Viewer_API_Postgres.Server.CarsRepository;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<ICarsRepository, CarsRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
